@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beast Studio — Apps forged in the Beast's Studio</title>
+    <meta name="description" content="Beast Studio — the home of Robert Lewis's apps. Serious software, polished craft, made in Texas on a Mac Studio M3 Ultra.">
+    <link rel="icon" type="image/jpeg" href="beast.jpg">
+    <link rel="apple-touch-icon" href="beast.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="/">
+            <img src="beast.jpg" alt="Beast Studio" class="nav-logo">
+            <span>Beast Studio</span>
+        </a>
+        <a class="nav-link" href="#creations">Creations</a>
+    </div>
+</nav>
+
+<header class="hero">
+    <div class="hero-inner">
+        <img src="beast.jpg" alt="Beast Studio" class="hero-logo">
+        <h1 class="hero-title">Beast Studio</h1>
+        <p class="hero-kicker">You've entered the Beast's Studio.</p>
+        <p class="hero-sub">
+            Independent software from Robert Lewis. Each app built with obsessive care for the craft — clean design, real security, and no subscription traps.
+        </p>
+        <a class="hero-cta" href="#creations">See the creations</a>
+    </div>
+</header>
+
+<section id="creations" class="section">
+    <div class="section-inner">
+        <h2 class="section-title">The Creations</h2>
+        <p class="section-lead">Apps currently made in the Studio.</p>
+
+        <div class="grid">
+            <a class="card" href="https://armoredvault.app" target="_blank" rel="noopener">
+                <div class="card-body">
+                    <div class="card-eyebrow">iPadOS · iPhone · macOS</div>
+                    <h3 class="card-title">Armored Vault</h3>
+                    <p class="card-desc">
+                        An encrypted vault for photos, videos, documents, and notes. AES-256 encryption, custom-built file player, Face ID &amp; Touch ID, and full offline operation. Your data never leaves your device.
+                    </p>
+                    <span class="card-cta">Visit armoredvault.app →</span>
+                </div>
+            </a>
+
+            <div class="card card-placeholder">
+                <div class="card-body">
+                    <div class="card-eyebrow">Coming soon</div>
+                    <h3 class="card-title">More creations in the forge</h3>
+                    <p class="card-desc">
+                        New apps are always being shaped in the Studio. Check back, or follow along as each one emerges.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-inner">
+        <p class="footer-line">© <span id="year">2026</span> Beast Studio · Robert Lewis</p>
+        <p class="footer-line-dim">Forged on a Mac Studio M3 Ultra in Texas.</p>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
