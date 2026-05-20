@@ -270,9 +270,9 @@ img { display: block; max-width: 100%; height: auto; }
     min-width: 0;
 }
 .platform-icon {
-    width: clamp(56px, 14vw, 84px);
-    height: clamp(56px, 14vw, 84px);
-    border-radius: 18px;
+    width: clamp(84px, 21vw, 126px);
+    height: clamp(84px, 21vw, 126px);
+    border-radius: 27px;
     box-shadow: var(--shadow-sm);
 }
 .platform-name {
