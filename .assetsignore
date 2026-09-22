@@ -4,3 +4,4 @@
 wrangler.jsonc
 CNAME
 .DS_Store
+.wrangler
